@@ -9,5 +9,9 @@ target 'crystalDefect_1' do
 
   # 네이버 지도
   pod 'NMapsMap'
+  
+  # 카카오
+  # 전체 추가
+  pod 'KakaoSDK'
 
 end

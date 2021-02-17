@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		9F578B0C25DCEC9300508760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F578B0A25DCEC9300508760 /* Main.storyboard */; };
 		9F578B0E25DCEC9500508760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F578B0D25DCEC9500508760 /* Assets.xcassets */; };
 		9F578B1125DCEC9500508760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F578B0F25DCEC9500508760 /* LaunchScreen.storyboard */; };
+		9FBE6F3C25DD08FE0073E796 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE6F3B25DD08FE0073E796 /* LoginViewController.swift */; };
+		9FBE6F3F25DD09120073E796 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6F3E25DD09120073E796 /* Login.storyboard */; };
 		BC0E5A0F5B771D945FFC609B /* Pods_crystalDefect_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD86E54C5E04A846EBE6EFDC /* Pods_crystalDefect_1.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		9F578B0D25DCEC9500508760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F578B1025DCEC9500508760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F578B1225DCEC9500508760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBE6F3B25DD08FE0073E796 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FBE6F3E25DD09120073E796 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C7D0CBAC0939C3984603C523 /* Pods-crystalDefect_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crystalDefect_1.debug.xcconfig"; path = "Target Support Files/Pods-crystalDefect_1/Pods-crystalDefect_1.debug.xcconfig"; sourceTree = "<group>"; };
 		CD86E54C5E04A846EBE6EFDC /* Pods_crystalDefect_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crystalDefect_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +90,8 @@
 		9F578B1925DCECCA00508760 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				9FBE6F3B25DD08FE0073E796 /* LoginViewController.swift */,
+				9FBE6F3E25DD09120073E796 /* Login.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -96,7 +102,6 @@
 				C7D0CBAC0939C3984603C523 /* Pods-crystalDefect_1.debug.xcconfig */,
 				0A39311E12BF936292731F90 /* Pods-crystalDefect_1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FBE6F3F25DD09120073E796 /* Login.storyboard in Resources */,
 				9F578B1125DCEC9500508760 /* LaunchScreen.storyboard in Resources */,
 				9F578B0E25DCEC9500508760 /* Assets.xcassets in Resources */,
 				9F578B0C25DCEC9300508760 /* Main.storyboard in Resources */,
@@ -214,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FBE6F3C25DD08FE0073E796 /* LoginViewController.swift in Sources */,
 				9F578B0925DCEC9300508760 /* ViewController.swift in Sources */,
 				9F578B0525DCEC9300508760 /* AppDelegate.swift in Sources */,
 				9F578B0725DCEC9300508760 /* SceneDelegate.swift in Sources */,
